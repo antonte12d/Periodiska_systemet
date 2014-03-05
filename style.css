@@ -1,0 +1,73 @@
+body, p, h1
+{
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	font-family: Verdana, thahoma, serif;
+	border-spacing: 3px;
+	font-size: 10px;
+}
+
+td, th {
+	border: 1px solid black;
+	width: 70px;
+	min-width: 70px;
+	margin: 0;
+	padding: 0;
+}
+
+td
+{
+	height: 70px;
+}
+
+h1 {
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.alkaliMetals {
+	background-color: #c4c38e;
+}
+
+.alkalineEarthMetals {
+	background-color: #5d9e2e;
+}
+
+.transitionalMetals {
+	background-color: #d5eb1d;
+}
+
+.otherMetals {
+	background-color: #c43e4b;
+}
+
+.nonmetals {
+	background-color: #85e0d6;
+}
+
+.nobleGases {
+	background-color: #c37a2b;
+}
+
+.liquid {
+	color: #060fc9;
+}
+
+.gas {
+	color: #e41111;
+}
+
+.syntheticallyPrepared {
+	color: #fff;
+	-webkit-text-stroke: 1px black;
+}
+
+.span, th {
+	visibility: hidden;
+	border: none;
+}
+
